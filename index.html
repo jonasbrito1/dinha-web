@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Shortcut Icon -->
+    <link rel="shortcut icon" href="utils/shortcut_icon_dinha.png" type="image/x-icon">
+    <!-- Links -->
+    <link rel="stylesheet" href="style.css">
+    <title>Dinha Viagens</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/ab394cf41b.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <!-- Others -->
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logoNavContainer">
+            <img class="logoNav" src="utils/image_logo_dinha_nav.svg">
+        </div>
+        <div id="itemsMenuNav">
+            <ul class="itemsMenuNavList">
+                <li class="itemMenu"><a class="linkMenu" href="#homeSection">Início</a></li>
+                <li class="itemMenu"><a class="linkMenu" href="#aboutSection">Sobre</a></li>
+                <li class="itemMenu"><a class="linkMenu" href="#itinerariesSection">Roteiros</a></li>
+                <li class="itemMenu"><a class="linkMenu" href="#contactSection">Contato</a></li>
+                <li class="itemMenu">
+                    <a class="linkMenuIcon" href="https://www.instagram.com/dinhaviagens/" target="_blank">
+                        <i class="fa-brands fa-instagram fa-lg"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="toggleMenuNav">
+            <img class="toggleMenuIcon" src="utils/icon_menu_toggle.svg">
+        </div>
+    </nav>
+
+    <section id="homeSection">
+        <div class="homeTextContainer">
+            <div class="homeTextWrapper">
+                <img class="homeHeartImage" src="utils/image_dashed_line_heart.svg">
+                <p class="homeContentTitle">Venha viver uma experiência incrível!</p>
+                <p class="homeContentSubtitle">Viagens rodoviárias e aéreas pelo Brasil e América do Sul.</p>
+            </div>
+            <div class="homeButtonsContainer">
+                <a class="buttonsLinks" href="#itinerariesSection">
+                    <button id="homeTravelWithUsButton">Viaje conosco!</button>
+                </a>
+                <a class="buttonsLinks" href="#gallerySection">
+                    <button id="homeExploreButton">Explore</button>
+                </a>
+            </div>
+        </div>
+        <div class="homeImageWrapper">
+            <img class="homeImage" src="utils/image_home_banner.png">
+        </div>
+    </section>
+
+    <section id="aboutSection">
+        <div class="aboutImageWrapper">
+            <img class="aboutImage" src="/utils/image_about.svg">
+        </div>
+        <div class="aboutTextWrapper">
+            <p class="aboutContentTitle">
+                Nossa história
+            </p>
+            <div class="aboutContentText">
+                <p class="aboutContentTextItem">
+                    Estamos há mais de 30 anos explorando destinos e conectando corações!
+                </p>
+                <p class="aboutContentTextItem">
+                    Fundada em Brusque/SC, nossa agência tem sido o catalisador de aventuras e descobertas pelo Brasil e
+                    América do Sul.
+                </p>
+                <p class="aboutContentTextItem">
+                    Nosso compromisso é oferecer <strong>viagens que transcedem destinos, criando experiências
+                        inesquecíveis.</strong> Com uma equipe apaixonada e dedicada, nos tornamos sinônimo de
+                    qualidade,
+                    confiabilidade e alegria!
+                </p>
+            </div>
+            <p class="aboutContentQuote">
+                "Viajar seguro é viajar conosco!"
+            </p>
+        </div>
+    </section>
+
+    <section id="itinerariesSection">
+
+        <div class="menuItinerariesContainer">
+            <p class="menuItinerariesTitle">Viaje conosco</p>
+            <div class="menuItinerariesOptions">
+                    <p id="roadItinerariesOption">roteiros rodoviários</li>
+                    <p id="airItinerariesOption">roteiros aéreos</li>
+            </div>
+        </div>
+
+        <div id="roadItinerariesContainer">
+
+            <div class="itineraryCard">
+                <img class="itineraryCardImage"
+                    src="/utils/itineraries_images/road_itineraries/img_road_itineraries_ap_norte.svg">
+                <p class="itineraryCardTitle">Aparecida do Norte</p>
+                <div class="tineraryCardSubTitleWrapper">
+                    <img class="localIcon" src="/utils/icon_localization.svg">
+                    <p class="itineraryCardSubtitle">Aparecida do Norte - São Paulo</p>
+                </div>
+            </div>
+
+            <div class="itineraryCard">
+                <img class="itineraryCardImage"
+                    src="/utils/itineraries_images/road_itineraries/img_road_itineraries_foz.svg">
+                <p class="itineraryCardTitle">Foz do Iguaçu</p>
+                <div class="tineraryCardSubTitleWrapper">
+                    <img class="localIcon" src="/utils/icon_localization.svg">
+                    <p class="itineraryCardSubtitle">Foz do Iguaçu - Paraná</p>
+                </div>
+            </div>
+
+            <div class="itineraryCard">
+                <img class="itineraryCardImage"
+                    src="/utils/itineraries_images/road_itineraries/img_road_itineraries_gramado.svg">
+                <p class="itineraryCardTitle">Gramado</p>
+                <div class="tineraryCardSubTitleWrapper">
+                    <img class="localIcon" src="/utils/icon_localization.svg">
+                    <p class="itineraryCardSubtitle">Gramado - Rio Grande do Sul</p>
+                </div>
+            </div>
+
+            <div class="itineraryCard">
+                <img class="itineraryCardImage"
+                    src="/utils/itineraries_images/road_itineraries/img_road_itineraries_ametista.svg">
+                <p class="itineraryCardTitle">Ametista do Sul</p>
+                <div class="tineraryCardSubTitleWrapper">
+                    <img class="localIcon" src="/utils/icon_localization.svg">
+                    <p class="itineraryCardSubtitle">Ametista do Sul - Rio Grande do Sul</p>
+                </div>
+            </div>
+
+            <div class="itineraryCard">
+                <img class="itineraryCardImage"
+                    src="/utils/itineraries_images/road_itineraries/img_road_itineraries_romanas_resort.svg">
+                <p class="itineraryCardTitle">Termas Romanas Resort</p>
+                <div class="tineraryCardSubTitleWrapper">
+                    <img class="localIcon" src="/utils/icon_localization.svg">
+                    <p class="itineraryCardSubtitle">Restinga Sêca - Rio Grande do Sul</p>
+                </div>
+            </div>
+
+            <div class="itineraryCard">
+                <img class="itineraryCardImage"
+                    src="/utils/itineraries_images/road_itineraries/img_road_itineraries_nova_veneza.svg">
+                <p class="itineraryCardTitle">Nova Veneza</p>
+                <div class="tineraryCardSubTitleWrapper">
+                    <img class="localIcon" src="/utils/icon_localization.svg">
+                    <p class="itineraryCardSubtitle">Nova Veneza - Santa Catarina</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="airItinerariesContainer">
+
+            <div class="itineraryCard">
+                <img class="itineraryCardImage" src="/utils/itineraries_images/air_itineraries/img_air_itineraries_manaus.svg">
+                <p class="itineraryCardTitle">Manaus</p>
+                <div class="tineraryCardSubTitleWrapper">
+                    <img class="localIcon" src="/utils/icon_localization.svg">
+                    <p class="itineraryCardSubtitle">Manaus - Amazonas</p>
+                </div>
+            </div>
+
+            <div class="itineraryCard">
+                <img class="itineraryCardImage" src="/utils/itineraries_images/air_itineraries/img_air_itineraries_costa_sauipe.svg">
+                <p class="itineraryCardTitle">Costa do Sauípe</p>
+                <div class="tineraryCardSubTitleWrapper">
+                    <img class="localIcon" src="/utils/icon_localization.svg">
+                    <p class="itineraryCardSubtitle">Sauípe - Bahia</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="itinerariesFooterContainer">
+            <div class="itinerariesFooterSpacer"></div>
+            <div class="itinerariesCallToActionWrapper">
+                <p class="itinerariesCalToActionText">
+                    Se interessou e quer saber mais?<br>
+                    Faça um orçamento conosco!
+                </p>
+                <a class="genericLink" href="https://api.whatsapp.com/send?phone=55554791160091" target="_blank">
+                    <button id="itinerariesCallToActionButton">Garanta já sua viagem!</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="valuesSection">
+        <div class="valuesContentWrapper">
+            <div class="valuesBoxes">
+                <img class="valuesIcons" src="utils/icon_value_heart.svg">
+                <p class="valuesTitles">
+                    Clientes Fidelizados
+                </p>
+                <p class="valuesText">
+                    Mantemos laços duradouros: os sorrisos que geramos sempre retornam.
+                </p>
+            </div>
+            <div class="valuesBoxes">
+                <img class="valuesIcons" src="utils/icon_value_gift.svg">
+                <p class="valuesTitles">
+                    Brindes especiais
+                </p>
+                <p class="valuesText">
+                    Mimos especiais, brindes personalizados e outras surpresas durante suas jornadas.
+                </p>
+            </div>
+            <div class="valuesBoxes">
+                <img class="valuesIcons" src="utils/icon_value_star.svg">
+                <p class="valuesTitles">
+                    Qualidade e segurança
+                </p>
+                <p class="valuesText">
+                    Cada viagem é cuidadosamente planejada para garantir tranquilidade e segurança.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallerySection">
+        <div class="gallerySectionContainer">
+            <div class="galleryInformationContainer">
+                <div class="galleryDescriptionWrapper">
+                    <p class="galleryaDescriptionTitle">
+                        Nossa galeria
+                    </p>
+                    <p class="galleryDescriptionText">
+                        Acompanhe nosso instagram e fique atento às novidades e atualizações de novas viagens.
+                    </p>
+                </div>
+                <div class="galleryButtonWrapper">
+                    <a class="genericLink" href="https://www.instagram.com/dinhaviagens/" target="_blank">
+                        <button id="followUsButton">
+                            Siga-nos
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="galleryPhotosContainer">
+                <img class="galleryPhotos" src="utils/insta_gallery/image_insta_gallery_1.svg">
+                <img class="galleryPhotos" src="utils/insta_gallery/image_insta_gallery_2.svg">
+                <img class="galleryPhotos" src="utils/insta_gallery/image_insta_gallery_3.svg">
+                <img class="galleryPhotos" src="utils/insta_gallery/image_insta_gallery_4.svg">
+                <img class="galleryPhotos" src="utils/insta_gallery/image_insta_gallery_5.svg">
+                <img class="galleryPhotos" src="utils/insta_gallery/image_insta_gallery_6.svg">
+            </div>
+        </div>
+    </section>
+
+    <footer id="contactSection">
+            <div class="footerLgpdWrapper">
+                <div class="footerLgpdTitleWrapper">
+                    <img class="footerLgpdTitleIcon" src="utils/icon_lgpd.svg">
+                    <p class="footerLgpdTitle">
+                        Lei Geral de Proteção de Dados
+                    </p>
+                </div>
+                <div class="footerLgpdDescriptionWrapper">
+                    <p class="footerLgpdDescription" style="text-align: justify;">
+                        A Lei Geral de Proteção de Dados (LGPD) estabelece diretrizes claras sobre o 
+                        tratamento de dados pessoais de pessoas físicas, tanto em meios físicos quanto digitais. 
+                        Sua finalidade é garantir a proteção dos direitos de liberdade, privacidade e a segurança dos dados, 
+                        reforçando o compromisso com a transparência e o 
+                        respeito à privacidade dos titulares.<br><br>Kleber Bittencourt - DPO - Data Protection Officer
+                    </p>
+                </div>
+                <div class="footerLgpdIconsWrapper">
+                    <a class="genericLink" href="tel:+55554791160091" target="_blank;  " >
+                        <img class="footerLgpdIcon" src="utils/icon_phone.svg">
+                    </a>
+                    <a class="genericLink" href="https://api.whatsapp.com/send?phone=55554791160091" target="_blank">
+                        <img class="footerLgpdIcon" src="utils/icon_whatsapp.svg">
+                    </a>
+                    <a class="genericLink" href="mailto:lyra.kleber@icloud.com" target="_blank">
+                        <img class="footerLgpdIcon" src="utils/icon_email.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="moreContentOptionsWrapper">
+                <div class="moreContentOptions">
+                    <p class="moreContentOptionsTitle">Contate-nos</p>
+                    <a class="contact-button" href="tel:+55554791160091" target="_blank">
+                        <p class="moreContentOption">Telefone</p>
+                    </a>
+                    <a class="contact-button" href="mailto:fernandes@dinhaviagens.com.br" target="_blank">
+                        <p class="moreContentOption">E-mail</p>
+                    </a>
+                    <a class="contact-button" href="https://api.whatsapp.com/send?phone=55554791160091" target="_blank">
+                        <p class="moreContentOption">WhatsApp</p>
+                    </a>
+                </div>
+                <div class="moreContentOptions">
+                    <p class="moreContentOptionsTitle">Saiba mais</p>
+                    <a class="contact-button" href="#aboutSection">
+                        <p class="moreContentOption">Nossa história</p>
+                    </a>
+                    <a class="contact-button" href="#valuesSection">
+                        <p class="moreContentOption">Valores</p>
+
+                    </a>
+                    <a class="contact-button" href="#itinerariesSection">
+                        <p class="moreContentOption">Roteiros</p>
+                    </a>
+                    <a class="contact-button" href="politica-privacidade.html" target="_blank">
+                        <p class="moreContentOption">Política de Privacidade</p>
+                    </a>
+                    <a class="contact-button" href="termo-de-uso.html" target="_blank">
+                        <p class="moreContentOption">Termos de Uso</p>
+                    </a>                    
+                </div>
+                <div class="moreContentOptions">
+                    <p class="moreContentOptionsTitle">Acesse</p>
+                    <a class="contact-button" href="https://www.instagram.com/dinhaviagens/" target="_blank">
+                        <p class="moreContentOption">Instagram</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footerRowContainer">
+        <div class="footerRow"></div>
+        <div class="footerRowDescription">
+            <p class="footerParagraphDescription">© Dinha Viagens, 2024</p>
+            <p class="footerParagraphDescription">Todos os direitos reservados</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
